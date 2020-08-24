@@ -24,8 +24,8 @@ TBB_BASE    :=
 CUDA_BASE   := /usr/local/cuda
 ALPAKA_BASE := /usr/local/alpaka/alpaka
 CUPLA_BASE  := /usr/local/alpaka/cupla
-ONEAPI_BASE := /opt/sycl/latest
-DPCT_BASE   := /opt/intel/inteloneapi/dpcpp-ct/latest
+ONEAPI_BASE := /opt/intel/oneapi/compiler/latest/linux
+DPCT_BASE   := /opt/intel/oneapi/dpcpp-ct/latest
 
 # host compiler
 CXX := g++
